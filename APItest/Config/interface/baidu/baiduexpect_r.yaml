@@ -1,0 +1,3 @@
+tag: 1 # 1为值对比
+expectpart: url #说明取json中哪部分的值作为校验
+expectvalue: https://www.baidu.com/s?wd=wo&rsv_spt=1&rsv_iqid=0xf7c6aca00001e199

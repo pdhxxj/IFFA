@@ -1,0 +1,50 @@
+wd:
+  tag: 1   #1全固定，2半固定（内容随机），3全随机（长度内容随机）,4依赖接口返回数据，5依赖数据库查询数据,6取异常数据
+  value: wo #{}按枚举类型取值，[]按上下限取值
+  exceptvalue:
+  long:      #半固定下的长度
+  depenif:
+    interfacename:
+    host:   #依赖上一个接口的host
+    para:  #依赖上一个接口返回数据中字段值
+  dependb:
+    db:     #依赖库名称
+    table:  #依赖表名称
+    key:   #依赖字段名
+  jar:
+     jarname:  #依赖的jar包名称，不含.jar
+     jarpara:
+
+rsv_spt:
+  tag: 1  #1全固定，2半固定（内容随机），3全随机（长度内容随机）,4依赖接口返回数据，5依赖数据库查询数据
+  value: 1  #{}按枚举类型取值，[]按上下限取值
+  exceptvalue:
+  long: 8     #半固定下的长度
+  depenif:
+    interfacename:
+    host:   #依赖上一个接口的host
+    para:  #依赖上一个接口返回数据中字段值
+  dependb:
+    db:     #依赖库名称
+    table:  #依赖表名称
+    key:   #依赖字段名
+  jar:
+     jarname:  #依赖的jar包名称，不含.jar
+     jarpara:
+
+rsv_iqid:
+  tag: 1  #1全固定，2半固定（内容随机），3全随机（长度内容随机）,4依赖接口返回数据，5依赖数据库查询数据
+  value: '0xf7c6aca00001e199'  #{}按枚举类型取值，[]按上下限取值
+  exceptvalue:
+  long: 8     #半固定下的长度
+  depenif:
+    interfacename:
+    host:   #依赖上一个接口的host
+    para:  #依赖上一个接口返回数据中字段值
+  dependb:
+    db:     #依赖库名称
+    table:  #依赖表名称
+    key:   #依赖字段名
+  jar:
+     jarname:  #依赖的jar包名称，不含.jar
+     jarpara:

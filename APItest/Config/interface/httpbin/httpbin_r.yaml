@@ -1,0 +1,39 @@
+user:
+  type: 'string'   #数据类型 number,float,string,bool,json,list，jar对象
+  value: 古今同学 #{}按枚举类型取值，[]按上下限取值
+  long:  3    #长度
+  max: #最大值
+  min: #最小值
+  notnull: #是否必填
+  jar:
+    jartype: object # 或value
+    jarname:  #依赖的jar包名称，不含.jar
+    jarpara:
+    classname: #类名
+    funcname: #调用方法名
+
+age:
+  type: 'int'   #数据类型 number,float,string,json,list，jar对象
+  value: 25 #{}按枚举类型取值，[]按上下限取值
+  long:      #长度
+  max: #最大值
+  min: #最小值
+  jar:
+    jartype: object # 或value
+    jarname:  #依赖的jar包名称，不含.jar
+    jarpara:
+    classname: #类名
+    funcname: #调用方法名
+
+password:
+  type: 'string'   #数据类型 number,float,string,json,list，jar对象
+  value:  #{}按枚举类型取值，[]按上下限取值
+  long: 6     #长度
+  max: #最大值
+  min: #最小值
+  jar:
+    jartype: object # 或value
+    jarname:  #依赖的jar包名称，不含.jar
+    jarpara:
+    classname: #类名
+    funcname: #调用方法名

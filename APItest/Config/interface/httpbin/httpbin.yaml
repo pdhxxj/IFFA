@@ -1,0 +1,24 @@
+interfacename: httpbin
+host: http://httpbin.org/get
+data:
+  isFile: False
+  filename: testimg.jpeg
+  value:
+headers:
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip, deflate, sdch, br
+  Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+  Cookie: _ga=GA1.2.401132342.1476665415
+  Host: github.com
+  Upgrade-Insecure-Requests: '1'
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+params:
+  user: str # 数据类型int,float,str,number,jar,bool,context，id,telephone,phone,jar
+  age: int
+  password: context
+method: get
+cookie: {}
+codetype: gb2312
+ruler:
+expect:
+protocol: http

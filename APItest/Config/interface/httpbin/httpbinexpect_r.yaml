@@ -1,0 +1,13 @@
+body:
+  ischeck:
+  value:
+headers:
+  ischeck:
+  value:
+schema:
+  ischeck:
+  value:
+content_Type:
+  ischeck:
+  value:
+status_code:

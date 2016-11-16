@@ -1,0 +1,1753 @@
+2016-11-14 08:38:19,948 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 08:38:20,065 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 08:38:20,068 - INFO - httpbin - The case of httpbin has built using 0.00290260466422
+2016-11-14 08:38:20,069 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3', u'httpbin4', u'httpbin5', u'httpbin6', u'httpbin7', u'httpbin8', u'httpbin9', u'httpbin_lack']
+2016-11-14 08:38:20,082 - INFO - httpbin--->httpbin1 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 08:38:20,640 - INFO - httpbin->httpbin1 - Http has get the response data using 0.564430100902
+2016-11-14 08:38:20,641 - INFO - httpbin->httpbin1 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:20,648 - INFO - httpbin--->httpbin1 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 08:38:21,131 - INFO - httpbin->httpbin1 - Http has get the response data using 0.488558327506
+2016-11-14 08:38:21,132 - INFO - httpbin->httpbin1 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:21,148 - INFO - httpbin--->httpbin1 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 08:38:21,674 - INFO - httpbin->httpbin1 - Http has get the response data using 0.539163829697
+2016-11-14 08:38:21,674 - INFO - httpbin->httpbin1 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:21,684 - INFO - httpbin--->httpbin1 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 08:38:22,220 - INFO - httpbin->httpbin1 - Http has get the response data using 0.545053945439
+2016-11-14 08:38:22,221 - INFO - httpbin->httpbin1 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:22,252 - INFO - httpbin--->httpbin2 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 08:38:22,770 - INFO - httpbin->httpbin2 - Http has get the response data using 0.524613259822
+2016-11-14 08:38:22,773 - INFO - httpbin->httpbin2 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:22,786 - INFO - httpbin--->httpbin2 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 08:38:23,302 - INFO - httpbin->httpbin2 - Http has get the response data using 0.527499224536
+2016-11-14 08:38:23,303 - INFO - httpbin->httpbin2 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:23,312 - INFO - httpbin--->httpbin2 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 08:38:23,838 - INFO - httpbin->httpbin2 - Http has get the response data using 0.534040431666
+2016-11-14 08:38:23,839 - INFO - httpbin->httpbin2 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:23,846 - INFO - httpbin--->httpbin2 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 08:38:24,367 - INFO - httpbin->httpbin2 - Http has get the response data using 0.525858269437
+2016-11-14 08:38:24,368 - INFO - httpbin->httpbin2 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:24,418 - INFO - httpbin--->httpbin3 - para_data: {'age': 27, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8937745546660545}
+
+2016-11-14 08:38:24,928 - INFO - httpbin->httpbin3 - Http has get the response data using 0.517644960634
+2016-11-14 08:38:24,930 - INFO - httpbin->httpbin3 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:24,937 - INFO - httpbin--->httpbin3 - para_data: {'age': 27, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8937745546660545}
+
+2016-11-14 08:38:25,463 - INFO - httpbin->httpbin3 - Http has get the response data using 0.53109260047
+2016-11-14 08:38:25,467 - INFO - httpbin->httpbin3 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:25,490 - INFO - httpbin--->httpbin3 - para_data: {'age': 27, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8937745546660545}
+
+2016-11-14 08:38:26,016 - INFO - httpbin->httpbin3 - Http has get the response data using 0.548021403243
+2016-11-14 08:38:26,019 - INFO - httpbin->httpbin3 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:26,032 - INFO - httpbin--->httpbin3 - para_data: {'age': 27, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8937745546660545}
+
+2016-11-14 08:38:26,571 - INFO - httpbin->httpbin3 - Http has get the response data using 0.550821181547
+2016-11-14 08:38:26,572 - INFO - httpbin->httpbin3 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:26,601 - INFO - httpbin--->httpbin4 - para_data: {'age': 27, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 08:38:27,107 - INFO - httpbin->httpbin4 - Http has get the response data using 0.511514205611
+2016-11-14 08:38:27,108 - INFO - httpbin->httpbin4 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:27,117 - INFO - httpbin--->httpbin4 - para_data: {'age': 27, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 08:38:27,650 - INFO - httpbin->httpbin4 - Http has get the response data using 0.539513695319
+2016-11-14 08:38:27,653 - INFO - httpbin->httpbin4 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:27,667 - INFO - httpbin--->httpbin4 - para_data: {'age': 27, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 08:38:28,194 - INFO - httpbin->httpbin4 - Http has get the response data using 0.539305909273
+2016-11-14 08:38:28,197 - INFO - httpbin->httpbin4 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:28,213 - INFO - httpbin--->httpbin4 - para_data: {'age': 27, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 08:38:28,756 - INFO - httpbin->httpbin4 - Http has get the response data using 0.557162282609
+2016-11-14 08:38:28,759 - INFO - httpbin->httpbin4 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:28,805 - INFO - httpbin--->httpbin5 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 08:38:29,298 - INFO - httpbin->httpbin5 - Http has get the response data using 0.498192858731
+2016-11-14 08:38:29,299 - INFO - httpbin->httpbin5 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:29,305 - INFO - httpbin--->httpbin5 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 08:38:29,838 - INFO - httpbin->httpbin5 - Http has get the response data using 0.539107936531
+2016-11-14 08:38:29,842 - INFO - httpbin->httpbin5 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:29,857 - INFO - httpbin--->httpbin5 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 08:38:30,392 - INFO - httpbin->httpbin5 - Http has get the response data using 0.550057450495
+2016-11-14 08:38:30,395 - INFO - httpbin->httpbin5 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:30,414 - INFO - httpbin--->httpbin5 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 08:38:30,967 - INFO - httpbin->httpbin5 - Http has get the response data using 0.568303369334
+2016-11-14 08:38:30,967 - INFO - httpbin->httpbin5 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:31,000 - INFO - httpbin--->httpbin6 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 08:38:31,522 - INFO - httpbin->httpbin6 - Http has get the response data using 0.525808776251
+2016-11-14 08:38:31,523 - INFO - httpbin->httpbin6 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:31,529 - INFO - httpbin--->httpbin6 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 08:38:32,061 - INFO - httpbin->httpbin6 - Http has get the response data using 0.537202022223
+2016-11-14 08:38:32,062 - INFO - httpbin->httpbin6 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:32,069 - INFO - httpbin--->httpbin6 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 08:38:32,571 - INFO - httpbin->httpbin6 - Http has get the response data using 0.50826130866
+2016-11-14 08:38:32,572 - INFO - httpbin->httpbin6 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:32,578 - INFO - httpbin--->httpbin6 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 08:38:33,114 - INFO - httpbin->httpbin6 - Http has get the response data using 0.542274647073
+2016-11-14 08:38:33,115 - INFO - httpbin->httpbin6 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:33,142 - INFO - httpbin--->httpbin7 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8937745546660545}
+
+2016-11-14 08:38:33,676 - INFO - httpbin->httpbin7 - Http has get the response data using 0.537625700958
+2016-11-14 08:38:33,677 - INFO - httpbin->httpbin7 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:33,683 - INFO - httpbin--->httpbin7 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8937745546660545}
+
+2016-11-14 08:38:34,210 - INFO - httpbin->httpbin7 - Http has get the response data using 0.532300916861
+2016-11-14 08:38:34,213 - INFO - httpbin->httpbin7 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:34,226 - INFO - httpbin--->httpbin7 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8937745546660545}
+
+2016-11-14 08:38:34,739 - INFO - httpbin->httpbin7 - Http has get the response data using 0.523615716134
+2016-11-14 08:38:34,740 - INFO - httpbin->httpbin7 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:34,756 - INFO - httpbin--->httpbin7 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8937745546660545}
+
+2016-11-14 08:38:35,290 - INFO - httpbin->httpbin7 - Http has get the response data using 0.548883694001
+2016-11-14 08:38:35,292 - INFO - httpbin->httpbin7 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:35,321 - INFO - httpbin--->httpbin8 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8937745546660545}
+
+2016-11-14 08:38:35,858 - INFO - httpbin->httpbin8 - Http has get the response data using 0.542451713211
+2016-11-14 08:38:35,861 - INFO - httpbin->httpbin8 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:35,878 - INFO - httpbin--->httpbin8 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8937745546660545}
+
+2016-11-14 08:38:36,395 - INFO - httpbin->httpbin8 - Http has get the response data using 0.533203314166
+2016-11-14 08:38:36,395 - INFO - httpbin->httpbin8 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:36,403 - INFO - httpbin--->httpbin8 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8937745546660545}
+
+2016-11-14 08:38:36,934 - INFO - httpbin->httpbin8 - Http has get the response data using 0.535512853935
+2016-11-14 08:38:36,936 - INFO - httpbin->httpbin8 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:36,951 - INFO - httpbin--->httpbin8 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8937745546660545}
+
+2016-11-14 08:38:37,487 - INFO - httpbin->httpbin8 - Http has get the response data using 0.548919107228
+2016-11-14 08:38:37,489 - INFO - httpbin->httpbin8 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:37,516 - INFO - httpbin--->httpbin9 - para_data: {'age': 27, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 08:38:38,025 - INFO - httpbin->httpbin9 - Http has get the response data using 0.514162517701
+2016-11-14 08:38:38,026 - INFO - httpbin->httpbin9 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:38,036 - INFO - httpbin--->httpbin9 - para_data: {'age': 27, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 08:38:38,532 - INFO - httpbin->httpbin9 - Http has get the response data using 0.503821428587
+2016-11-14 08:38:38,532 - INFO - httpbin->httpbin9 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:38,539 - INFO - httpbin--->httpbin9 - para_data: {'age': 27, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 08:38:39,069 - INFO - httpbin->httpbin9 - Http has get the response data using 0.536133652081
+2016-11-14 08:38:39,069 - INFO - httpbin->httpbin9 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:39,075 - INFO - httpbin--->httpbin9 - para_data: {'age': 27, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 08:38:39,595 - INFO - httpbin->httpbin9 - Http has get the response data using 0.524560353313
+2016-11-14 08:38:39,596 - INFO - httpbin->httpbin9 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:39,625 - INFO - httpbin--->httpbin_lack - para_data: {'rate': 0.89, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6'}
+
+2016-11-14 08:38:40,145 - INFO - httpbin->httpbin_lack - Http has get the response data using 0.525659443364
+2016-11-14 08:38:40,148 - INFO - httpbin->httpbin_lack - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:40,160 - INFO - httpbin--->httpbin_lack - para_data: {'rate': 0.89, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6'}
+
+2016-11-14 08:38:40,684 - INFO - httpbin->httpbin_lack - Http has get the response data using 0.534483310343
+2016-11-14 08:38:40,687 - INFO - httpbin->httpbin_lack - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:40,698 - INFO - httpbin--->httpbin_lack - para_data: {'rate': 0.89, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6'}
+
+2016-11-14 08:38:41,237 - INFO - httpbin->httpbin_lack - Http has get the response data using 0.5473438586
+2016-11-14 08:38:41,240 - INFO - httpbin->httpbin_lack - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:41,257 - INFO - httpbin--->httpbin_lack - para_data: {'rate': 0.89, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6'}
+
+2016-11-14 08:38:41,786 - INFO - httpbin->httpbin_lack - Http has get the response data using 0.544968185695
+2016-11-14 08:38:41,789 - INFO - httpbin->httpbin_lack - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'schema': 'Key Error'}
+2016-11-14 08:38:41,844 - INFO - httpbin - The httpbin end running------------------
+2016-11-14 08:38:41,845 - INFO - httpbin - The whole time of running httpbin is 21.9112228785
+2016-11-14 10:00:05,546 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': u'', 'method': u'get'}
+2016-11-14 10:00:05,565 - INFO - baidu - The case of baidu build success...
+2016-11-14 10:00:05,568 - INFO - baidu - The case of baidu has built using 0.00252927244591
+2016-11-14 10:00:05,569 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 10:01:24,845 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': u'', 'method': u'get'}
+2016-11-14 10:03:54,765 - INFO - baidu - The case of baidu build success...
+2016-11-14 10:04:33,678 - INFO - baidu - The case of baidu has built using 32.8837682405
+2016-11-14 10:04:34,388 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 10:07:55,569 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': u'', 'method': u'get'}
+2016-11-14 10:07:55,585 - INFO - baidu - The case of baidu build success...
+2016-11-14 10:07:55,588 - INFO - baidu - The case of baidu has built using 0.00276564507327
+2016-11-14 10:07:55,588 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 10:07:55,598 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:07:55,601 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0084095748834
+2016-11-14 10:07:55,601 - INFO - baidu->baidu_NonePara - Run fail 1 times,The error: 
+ {}
+2016-11-14 10:07:55,608 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:07:55,611 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0088507468991
+2016-11-14 10:07:55,612 - INFO - baidu->baidu_NonePara - Run fail 2 times,The error: 
+ {}
+2016-11-14 10:07:55,618 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:07:55,622 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.00943314515967
+2016-11-14 10:07:55,624 - INFO - baidu->baidu_NonePara - Run fail 3 times,The error: 
+ {}
+2016-11-14 10:07:55,631 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:07:55,634 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.00918781255907
+2016-11-14 10:07:55,634 - INFO - baidu->baidu_NonePara - Run fail 4 times,The error: 
+ {}
+2016-11-14 10:08:04,934 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': u'', 'method': u'get'}
+2016-11-14 10:08:04,956 - INFO - baidu - The case of baidu build success...
+2016-11-14 10:08:04,960 - INFO - baidu - The case of baidu has built using 0.00309033743686
+2016-11-14 10:08:04,960 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 10:08:12,020 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:08:12,023 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0102489293899
+2016-11-14 10:08:12,030 - INFO - baidu->baidu_NonePara - Run fail 1 times,The error: 
+ {}
+2016-11-14 10:08:12,039 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:08:12,042 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0102497827206
+2016-11-14 10:08:12,051 - INFO - baidu->baidu_NonePara - Run fail 2 times,The error: 
+ {}
+2016-11-14 10:08:12,058 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:08:12,062 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0104050889235
+2016-11-14 10:08:12,069 - INFO - baidu->baidu_NonePara - Run fail 3 times,The error: 
+ {}
+2016-11-14 10:08:12,076 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:08:12,079 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.00948605166833
+2016-11-14 10:08:12,086 - INFO - baidu->baidu_NonePara - Run fail 4 times,The error: 
+ {}
+2016-11-14 10:09:11,819 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': u'', 'method': u'get'}
+2016-11-14 10:09:11,834 - INFO - baidu - The case of baidu build success...
+2016-11-14 10:09:11,838 - INFO - baidu - The case of baidu has built using 0.00280063163545
+2016-11-14 10:09:11,839 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 10:09:12,825 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:09:12,828 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0108070077231
+2016-11-14 10:09:12,834 - INFO - baidu->baidu_NonePara - Run fail 1 times,The error: 
+ {}
+2016-11-14 10:09:12,842 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:09:12,845 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.00972285096109
+2016-11-14 10:09:12,851 - INFO - baidu->baidu_NonePara - Run fail 2 times,The error: 
+ {}
+2016-11-14 10:09:12,859 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:09:12,862 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.00941309188623
+2016-11-14 10:09:12,868 - INFO - baidu->baidu_NonePara - Run fail 3 times,The error: 
+ {}
+2016-11-14 10:09:12,877 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:09:12,880 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.00936189203915
+2016-11-14 10:09:12,885 - INFO - baidu->baidu_NonePara - Run fail 4 times,The error: 
+ {}
+2016-11-14 10:09:18,272 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': u'', 'method': u'get'}
+2016-11-14 10:09:18,285 - INFO - baidu - The case of baidu build success...
+2016-11-14 10:09:18,289 - INFO - baidu - The case of baidu has built using 0.00310185740245
+2016-11-14 10:09:18,289 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 10:09:27,710 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:09:27,721 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0293712189446
+2016-11-14 10:09:27,726 - INFO - baidu->baidu_NonePara - Run fail 1 times,The error: 
+ {}
+2016-11-14 10:09:27,740 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:09:27,746 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0189460767477
+2016-11-14 10:09:27,749 - INFO - baidu->baidu_NonePara - Run fail 2 times,The error: 
+ {}
+2016-11-14 10:09:27,759 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:09:27,763 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0118758045309
+2016-11-14 10:09:27,763 - INFO - baidu->baidu_NonePara - Run fail 3 times,The error: 
+ {}
+2016-11-14 10:09:27,770 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:09:27,775 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.00951037159569
+2016-11-14 10:09:27,776 - INFO - baidu->baidu_NonePara - Run fail 4 times,The error: 
+ {}
+2016-11-14 10:10:43,907 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': u'', 'method': u'get'}
+2016-11-14 10:10:43,924 - INFO - baidu - The case of baidu build success...
+2016-11-14 10:10:43,927 - INFO - baidu - The case of baidu has built using 0.00278612501211
+2016-11-14 10:10:43,928 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 10:10:48,141 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:10:48,144 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0146004897265
+2016-11-14 10:10:48,145 - INFO - baidu->baidu_NonePara - Run fail 1 times,The error: 
+ {}
+2016-11-14 10:10:48,154 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:10:48,157 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0092697323144
+2016-11-14 10:10:48,157 - INFO - baidu->baidu_NonePara - Run fail 2 times,The error: 
+ {}
+2016-11-14 10:10:48,164 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:10:48,168 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.00946343840253
+2016-11-14 10:10:48,170 - INFO - baidu->baidu_NonePara - Run fail 3 times,The error: 
+ {}
+2016-11-14 10:10:48,177 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:10:48,180 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.00960125132426
+2016-11-14 10:10:48,181 - INFO - baidu->baidu_NonePara - Run fail 4 times,The error: 
+ {}
+2016-11-14 10:11:11,384 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': u'', 'method': u'get'}
+2016-11-14 10:11:11,398 - INFO - baidu - The case of baidu build success...
+2016-11-14 10:11:11,404 - INFO - baidu - The case of baidu has built using 0.00292777792237
+2016-11-14 10:11:11,404 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 10:39:36,615 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': u'', 'method': u'get'}
+2016-11-14 10:39:36,627 - INFO - baidu - The case of baidu build success...
+2016-11-14 10:39:36,631 - INFO - baidu - The case of baidu has built using 0.00336126996101
+2016-11-14 10:39:36,631 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 10:40:21,908 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:41:08,960 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': u'', 'method': u'get'}
+2016-11-14 10:41:08,976 - INFO - baidu - The case of baidu build success...
+2016-11-14 10:41:08,980 - INFO - baidu - The case of baidu has built using 0.00316244388817
+2016-11-14 10:41:08,982 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 10:41:16,755 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:42:17,923 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': u'', 'method': u'get'}
+2016-11-14 10:42:17,936 - INFO - baidu - The case of baidu build success...
+2016-11-14 10:42:17,940 - INFO - baidu - The case of baidu has built using 0.00319487045799
+2016-11-14 10:42:17,940 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 10:43:12,832 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:44:57,960 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 10:44:57,976 - INFO - baidu - The case of baidu build success...
+2016-11-14 10:44:57,982 - INFO - baidu - The case of baidu has built using 0.00288297805617
+2016-11-14 10:44:57,983 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 10:45:09,585 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:47:08,005 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 10:47:08,019 - INFO - baidu - The case of baidu build success...
+2016-11-14 10:47:08,023 - INFO - baidu - The case of baidu has built using 0.00280831161251
+2016-11-14 10:47:08,023 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 10:47:16,700 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:53:47,796 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 10:53:47,812 - INFO - baidu - The case of baidu build success...
+2016-11-14 10:53:47,815 - INFO - baidu - The case of baidu has built using 0.00281385826261
+2016-11-14 10:53:47,819 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 10:54:34,957 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:56:50,789 - INFO - baidu->baidu_NonePara - Https has get the response data using 142.367153677
+2016-11-14 10:57:47,533 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 10:57:47,551 - INFO - baidu - The case of baidu build success...
+2016-11-14 10:57:47,555 - INFO - baidu - The case of baidu has built using 0.00305961752861
+2016-11-14 10:57:47,555 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 10:57:53,885 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 10:57:54,769 - INFO - baidu->baidu_NonePara - Https has get the response data using 3.21615636775
+2016-11-14 11:17:38,996 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 11:17:39,015 - INFO - baidu - The case of baidu build success...
+2016-11-14 11:17:39,019 - INFO - baidu - The case of baidu has built using 0.00311551069501
+2016-11-14 11:17:39,020 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 11:17:44,628 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 11:17:45,391 - INFO - baidu->baidu_NonePara - Https has get the response data using 2.72560423286
+2016-11-14 11:20:55,992 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 11:20:56,007 - INFO - baidu - The case of baidu build success...
+2016-11-14 11:20:56,012 - INFO - baidu - The case of baidu has built using 0.00277161838877
+2016-11-14 11:20:56,013 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 11:21:01,213 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 11:21:01,990 - INFO - baidu->baidu_NonePara - Https has get the response data using 2.79026281308
+2016-11-14 11:21:34,621 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 11:21:34,638 - INFO - baidu - The case of baidu build success...
+2016-11-14 11:21:34,641 - INFO - baidu - The case of baidu has built using 0.00312063067972
+2016-11-14 11:21:34,642 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 11:21:44,052 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 11:27:08,815 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 11:27:08,832 - INFO - baidu - The case of baidu build success...
+2016-11-14 11:27:08,836 - INFO - baidu - The case of baidu has built using 0.00280916494329
+2016-11-14 11:27:08,838 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 11:27:36,144 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 11:28:39,892 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 11:28:39,907 - INFO - baidu - The case of baidu build success...
+2016-11-14 11:28:39,911 - INFO - baidu - The case of baidu has built using 0.00287615140989
+2016-11-14 11:28:39,913 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 11:28:48,809 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 11:30:26,569 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 11:30:26,585 - INFO - baidu - The case of baidu build success...
+2016-11-14 11:30:26,589 - INFO - baidu - The case of baidu has built using 0.00303401760507
+2016-11-14 11:30:26,591 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 11:30:28,970 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 11:30:29,739 - INFO - baidu->baidu_NonePara - Https has get the response data using 1.65730150353
+2016-11-14 11:32:20,036 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 11:32:20,052 - INFO - baidu - The case of baidu build success...
+2016-11-14 11:32:20,055 - INFO - baidu - The case of baidu has built using 0.00261673885134
+2016-11-14 11:32:20,056 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 11:32:25,858 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 11:32:26,628 - INFO - baidu->baidu_NonePara - Https has get the response data using 3.95152227812
+2016-11-14 11:35:59,269 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 11:35:59,288 - INFO - baidu - The case of baidu build success...
+2016-11-14 11:35:59,292 - INFO - baidu - The case of baidu has built using 0.00284969815557
+2016-11-14 11:35:59,292 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 11:36:03,380 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 11:36:04,140 - INFO - baidu->baidu_NonePara - Https has get the response data using 2.03833460551
+2016-11-14 11:38:10,345 - INFO - baidu->baidu_NonePara - Run fail 1 times,The error: 
+ {'schema': 'Key Error'}
+2016-11-14 11:38:14,844 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 11:38:18,437 - INFO - baidu->baidu_NonePara - Https has get the response data using 3.85140353714
+2016-11-14 11:38:19,312 - INFO - baidu->baidu_NonePara - Run fail 2 times,The error: 
+ {'schema': 'Key Error'}
+2016-11-14 11:38:23,434 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 11:38:25,204 - INFO - baidu->baidu_NonePara - Https has get the response data using 2.86406867265
+2016-11-14 11:38:32,911 - INFO - baidu->baidu_NonePara - Run fail 3 times,The error: 
+ {'schema': 'Key Error'}
+2016-11-14 11:38:36,200 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 11:38:38,243 - INFO - baidu->baidu_NonePara - Https has get the response data using 3.22509244772
+2016-11-14 11:38:39,759 - INFO - baidu->baidu_NonePara - Run fail 4 times,The error: 
+ {'schema': 'Key Error'}
+2016-11-14 11:42:25,059 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 11:42:25,079 - INFO - baidu - The case of baidu build success...
+2016-11-14 11:42:25,084 - INFO - baidu - The case of baidu has built using 0.00265471207126
+2016-11-14 11:42:25,085 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 11:42:25,094 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 11:42:25,927 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.839104907207
+2016-11-14 11:42:49,723 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 11:42:49,740 - INFO - baidu - The case of baidu build success...
+2016-11-14 11:42:49,743 - INFO - baidu - The case of baidu has built using 0.00210260705355
+2016-11-14 11:42:49,744 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 11:43:24,394 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 11:43:51,964 - INFO - baidu->baidu_NonePara - Https has get the response data using 28.4375551732
+2016-11-14 11:44:04,039 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 11:44:04,056 - INFO - baidu - The case of baidu build success...
+2016-11-14 11:44:04,062 - INFO - baidu - The case of baidu has built using 0.00307796414048
+2016-11-14 11:44:04,063 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 11:44:08,072 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 11:44:08,905 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.849139223904
+2016-11-14 12:00:29,710 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 12:00:29,726 - INFO - baidu - The case of baidu build success...
+2016-11-14 12:00:29,730 - INFO - baidu - The case of baidu has built using 0.00288937803706
+2016-11-14 12:00:29,732 - INFO - baidu - The caselist is:
+ baidu_NonePara
+2016-11-14 12:00:48,915 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 12:00:49,651 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.750861970759
+2016-11-14 12:01:45,638 - INFO - baidu->baidu_NonePara - Run fail 1 times,The error: 
+ {}
+2016-11-14 12:02:03,058 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 12:02:03,134 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0921866046693
+2016-11-14 12:02:08,375 - INFO - baidu->baidu_NonePara - Run fail 2 times,The error: 
+ {}
+2016-11-14 12:02:11,740 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 12:02:11,806 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0809546382155
+2016-11-14 12:02:28,614 - INFO - baidu->baidu_NonePara - Run fail 3 times,The error: 
+ {}
+2016-11-14 12:02:44,364 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 12:02:44,444 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0960517664587
+2016-11-14 12:02:49,698 - INFO - baidu->baidu_NonePara - Run fail 4 times,The error: 
+ {}
+2016-11-14 12:04:16,911 - INFO - baidu - The baidu end running------------------
+2016-11-14 12:04:17,854 - INFO - baidu - The whole time of running baidu is 222.186742056
+2016-11-14 12:07:16,994 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 12:07:17,115 - INFO - baidu - The case of baidu build success...
+2016-11-14 12:07:17,118 - INFO - baidu - The case of baidu has built using 0.0027694850618
+2016-11-14 12:07:17,118 - INFO - baidu - The caselist is:
+ [u'baidu_NonePara', u'baidu1', u'baidu2', u'baidu3', u'baidu4', u'baidu5', u'baidu6', u'baidu7', u'baidu8', u'baidu9', u'baidu_lack']
+2016-11-14 12:07:17,127 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 12:07:17,967 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.843692840171
+2016-11-14 12:07:17,967 - INFO - baidu->baidu_NonePara - Run fail 1 times,The error: 
+ {}
+2016-11-14 12:07:17,976 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 12:07:18,466 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.496848009414
+2016-11-14 12:07:18,466 - INFO - baidu->baidu_NonePara - Run fail 2 times,The error: 
+ {}
+2016-11-14 12:07:18,473 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 12:07:18,776 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.309376355996
+2016-11-14 12:07:18,779 - INFO - baidu->baidu_NonePara - Run fail 3 times,The error: 
+ {}
+2016-11-14 12:07:18,789 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 12:07:18,875 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0951062759493
+2016-11-14 12:07:18,877 - INFO - baidu->baidu_NonePara - Run fail 4 times,The error: 
+ {}
+2016-11-14 12:09:33,996 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 12:09:34,088 - INFO - baidu - The case of baidu build success...
+2016-11-14 12:09:34,092 - INFO - baidu - The case of baidu has built using 0.00284116484772
+2016-11-14 12:09:34,094 - INFO - baidu - The caselist is:
+ [u'baidu_NonePara', u'baidu1', u'baidu2', u'baidu3', u'baidu4', u'baidu5', u'baidu6', u'baidu7', u'baidu8', u'baidu9', u'baidu_lack']
+2016-11-14 12:09:34,102 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 12:09:34,887 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.789929160745
+2016-11-14 12:09:34,888 - INFO - baidu->baidu_NonePara - Run fail 1 times,The error: 
+ {}
+2016-11-14 12:09:34,900 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 12:09:34,980 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0908980751844
+2016-11-14 12:09:34,982 - INFO - baidu->baidu_NonePara - Run fail 2 times,The error: 
+ {}
+2016-11-14 12:09:34,989 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 12:09:38,059 - INFO - baidu->baidu_NonePara - Https has get the response data using 3.07720638274
+2016-11-14 12:09:38,062 - INFO - baidu->baidu_NonePara - Run fail 3 times,The error: 
+ {}
+2016-11-14 12:09:38,069 - INFO - baidu--->baidu_NonePara - para_data: None
+
+2016-11-14 12:09:38,122 - INFO - baidu->baidu_NonePara - Https has get the response data using 0.0599639809076
+2016-11-14 12:09:38,125 - INFO - baidu->baidu_NonePara - Run fail 4 times,The error: 
+ {}
+2016-11-14 12:15:39,926 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'data': None, 'method': u'get'}
+2016-11-14 12:15:40,042 - INFO - baidu - The case of baidu build success...
+2016-11-14 12:15:40,046 - INFO - baidu - The case of baidu has built using 0.00281513825879
+2016-11-14 12:15:40,046 - INFO - baidu - The caselist is:
+ [u'baidu1', u'baidu2', u'baidu3', u'baidu4', u'baidu5', u'baidu6', u'baidu7', u'baidu8', u'baidu9', u'baidu_lack']
+2016-11-14 12:15:40,055 - INFO - baidu--->baidu1 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 12:15:40,671 - INFO - baidu->baidu1 - Https has get the response data using 0.620511426739
+2016-11-14 12:15:40,671 - INFO - baidu->baidu1 - Run fail 1 times,The error: 
+ {}
+2016-11-14 12:15:40,677 - INFO - baidu--->baidu1 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 12:15:40,789 - INFO - baidu->baidu1 - Https has get the response data using 0.116639224971
+2016-11-14 12:15:40,790 - INFO - baidu->baidu1 - Run fail 2 times,The error: 
+ {}
+2016-11-14 12:15:40,798 - INFO - baidu--->baidu1 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 12:15:40,891 - INFO - baidu->baidu1 - Https has get the response data using 0.0994365030163
+2016-11-14 12:15:40,892 - INFO - baidu->baidu1 - Run fail 3 times,The error: 
+ {}
+2016-11-14 12:15:40,901 - INFO - baidu--->baidu1 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 12:15:41,607 - INFO - baidu->baidu1 - Https has get the response data using 0.711786247465
+2016-11-14 12:15:41,609 - INFO - baidu->baidu1 - Run fail 4 times,The error: 
+ {}
+2016-11-14 12:15:41,654 - INFO - baidu--->baidu2 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 12:15:41,732 - INFO - baidu->baidu2 - Https has get the response data using 0.0836695101071
+2016-11-14 12:15:41,733 - INFO - baidu->baidu2 - Run fail 1 times,The error: 
+ {}
+2016-11-14 12:15:41,739 - INFO - baidu--->baidu2 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 12:15:41,792 - INFO - baidu->baidu2 - Https has get the response data using 0.0596759817677
+2016-11-14 12:15:41,793 - INFO - baidu->baidu2 - Run fail 2 times,The error: 
+ {}
+2016-11-14 12:15:41,799 - INFO - baidu--->baidu2 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 12:15:41,881 - INFO - baidu->baidu2 - Https has get the response data using 0.0869416070011
+2016-11-14 12:15:41,881 - INFO - baidu->baidu2 - Run fail 3 times,The error: 
+ {}
+2016-11-14 12:15:41,888 - INFO - baidu--->baidu2 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 12:15:41,976 - INFO - baidu->baidu2 - Https has get the response data using 0.0926764165398
+2016-11-14 12:15:41,977 - INFO - baidu->baidu2 - Run fail 4 times,The error: 
+ {}
+2016-11-14 12:15:42,017 - INFO - baidu--->baidu3 - para_data: {'age': 58, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.1279238791042114}
+
+2016-11-14 12:15:42,085 - INFO - baidu->baidu3 - Https has get the response data using 0.0758367868341
+2016-11-14 12:15:42,086 - INFO - baidu->baidu3 - Run fail 1 times,The error: 
+ {}
+2016-11-14 12:15:42,092 - INFO - baidu--->baidu3 - para_data: {'age': 58, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.1279238791042114}
+
+2016-11-14 12:15:42,144 - INFO - baidu->baidu3 - Https has get the response data using 0.056656470786
+2016-11-14 12:15:42,144 - INFO - baidu->baidu3 - Run fail 2 times,The error: 
+ {}
+2016-11-14 12:15:42,151 - INFO - baidu--->baidu3 - para_data: {'age': 58, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.1279238791042114}
+
+2016-11-14 12:15:42,237 - INFO - baidu->baidu3 - Https has get the response data using 0.0917748725657
+2016-11-14 12:15:42,239 - INFO - baidu->baidu3 - Run fail 3 times,The error: 
+ {}
+2016-11-14 12:15:42,243 - INFO - baidu--->baidu3 - para_data: {'age': 58, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.1279238791042114}
+
+2016-11-14 12:15:42,323 - INFO - baidu->baidu3 - Https has get the response data using 0.0845970806701
+2016-11-14 12:15:42,323 - INFO - baidu->baidu3 - Run fail 4 times,The error: 
+ {}
+2016-11-14 12:15:42,349 - INFO - baidu--->baidu4 - para_data: {'age': 58, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 12:15:51,424 - INFO - baidu->baidu4 - Https has get the response data using 9.08031762678
+2016-11-14 12:15:51,426 - INFO - baidu->baidu4 - Run fail 1 times,The error: 
+ {}
+2016-11-14 12:15:51,431 - INFO - baidu--->baidu4 - para_data: {'age': 58, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 12:15:51,487 - INFO - baidu->baidu4 - Https has get the response data using 0.0618212553605
+2016-11-14 12:15:51,489 - INFO - baidu->baidu4 - Run fail 2 times,The error: 
+ {}
+2016-11-14 12:15:51,493 - INFO - baidu--->baidu4 - para_data: {'age': 58, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 12:15:51,559 - INFO - baidu->baidu4 - Https has get the response data using 0.0693570195204
+2016-11-14 12:15:51,559 - INFO - baidu->baidu4 - Run fail 3 times,The error: 
+ {}
+2016-11-14 12:15:51,566 - INFO - baidu--->baidu4 - para_data: {'age': 58, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 12:15:51,654 - INFO - baidu->baidu4 - Https has get the response data using 0.0933522545213
+2016-11-14 12:15:51,655 - INFO - baidu->baidu4 - Run fail 4 times,The error: 
+ {}
+2016-11-14 12:15:51,686 - INFO - baidu--->baidu5 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 12:15:51,763 - INFO - baidu->baidu5 - Https has get the response data using 0.0839835358358
+2016-11-14 12:15:51,765 - INFO - baidu->baidu5 - Run fail 1 times,The error: 
+ {}
+2016-11-14 12:15:51,772 - INFO - baidu--->baidu5 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 12:15:51,834 - INFO - baidu->baidu5 - Https has get the response data using 0.0684883287815
+2016-11-14 12:15:51,835 - INFO - baidu->baidu5 - Run fail 2 times,The error: 
+ {}
+2016-11-14 12:15:51,842 - INFO - baidu--->baidu5 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 12:15:51,927 - INFO - baidu->baidu5 - Https has get the response data using 0.0914028203436
+2016-11-14 12:15:51,928 - INFO - baidu->baidu5 - Run fail 3 times,The error: 
+ {}
+2016-11-14 12:15:51,936 - INFO - baidu--->baidu5 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 12:15:52,016 - INFO - baidu->baidu5 - Https has get the response data using 0.0867133410162
+2016-11-14 12:15:52,017 - INFO - baidu->baidu5 - Run fail 4 times,The error: 
+ {}
+2016-11-14 12:15:52,056 - INFO - baidu--->baidu6 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 12:15:52,131 - INFO - baidu->baidu6 - Https has get the response data using 0.0815865296616
+2016-11-14 12:15:52,132 - INFO - baidu->baidu6 - Run fail 1 times,The error: 
+ {}
+2016-11-14 12:15:52,141 - INFO - baidu--->baidu6 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 12:15:52,204 - INFO - baidu->baidu6 - Https has get the response data using 0.0707296020876
+2016-11-14 12:15:52,207 - INFO - baidu->baidu6 - Run fail 2 times,The error: 
+ {}
+2016-11-14 12:15:52,216 - INFO - baidu--->baidu6 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 12:15:52,285 - INFO - baidu->baidu6 - Https has get the response data using 0.077173102843
+2016-11-14 12:15:52,286 - INFO - baidu->baidu6 - Run fail 3 times,The error: 
+ {}
+2016-11-14 12:15:52,292 - INFO - baidu--->baidu6 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-14 12:15:52,361 - INFO - baidu->baidu6 - Https has get the response data using 0.0754574813003
+2016-11-14 12:15:52,361 - INFO - baidu->baidu6 - Run fail 4 times,The error: 
+ {}
+2016-11-14 12:15:52,384 - INFO - baidu--->baidu7 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.1279238791042114}
+
+2016-11-14 12:15:52,448 - INFO - baidu->baidu7 - Https has get the response data using 0.0685668352137
+2016-11-14 12:15:52,450 - INFO - baidu->baidu7 - Run fail 1 times,The error: 
+ {}
+2016-11-14 12:15:52,456 - INFO - baidu--->baidu7 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.1279238791042114}
+
+2016-11-14 12:15:52,519 - INFO - baidu->baidu7 - Https has get the response data using 0.0692482198453
+2016-11-14 12:15:52,520 - INFO - baidu->baidu7 - Run fail 2 times,The error: 
+ {}
+2016-11-14 12:15:52,526 - INFO - baidu--->baidu7 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.1279238791042114}
+
+2016-11-14 12:15:52,596 - INFO - baidu->baidu7 - Https has get the response data using 0.0757843069909
+2016-11-14 12:15:52,596 - INFO - baidu->baidu7 - Run fail 3 times,The error: 
+ {}
+2016-11-14 12:15:52,602 - INFO - baidu--->baidu7 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.1279238791042114}
+
+2016-11-14 12:15:52,694 - INFO - baidu->baidu7 - Https has get the response data using 0.0961383795334
+2016-11-14 12:15:52,696 - INFO - baidu->baidu7 - Run fail 4 times,The error: 
+ {}
+2016-11-14 12:15:52,733 - INFO - baidu--->baidu8 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.1279238791042114}
+
+2016-11-14 12:15:52,788 - INFO - baidu->baidu8 - Https has get the response data using 0.0616057893374
+2016-11-14 12:15:52,789 - INFO - baidu->baidu8 - Run fail 1 times,The error: 
+ {}
+2016-11-14 12:15:52,795 - INFO - baidu--->baidu8 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.1279238791042114}
+
+2016-11-14 12:15:52,872 - INFO - baidu->baidu8 - Https has get the response data using 0.0831711649288
+2016-11-14 12:15:52,874 - INFO - baidu->baidu8 - Run fail 2 times,The error: 
+ {}
+2016-11-14 12:15:52,880 - INFO - baidu--->baidu8 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.1279238791042114}
+
+2016-11-14 12:15:52,931 - INFO - baidu->baidu8 - Https has get the response data using 0.0574526284082
+2016-11-14 12:15:52,931 - INFO - baidu->baidu8 - Run fail 3 times,The error: 
+ {}
+2016-11-14 12:15:52,937 - INFO - baidu--->baidu8 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.1279238791042114}
+
+2016-11-14 12:15:53,002 - INFO - baidu->baidu8 - Https has get the response data using 0.0691155269083
+2016-11-14 12:15:53,003 - INFO - baidu->baidu8 - Run fail 4 times,The error: 
+ {}
+2016-11-14 12:15:53,035 - INFO - baidu--->baidu9 - para_data: {'age': 58, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 12:15:53,108 - INFO - baidu->baidu9 - Https has get the response data using 0.0786937383014
+2016-11-14 12:15:53,108 - INFO - baidu->baidu9 - Run fail 1 times,The error: 
+ {}
+2016-11-14 12:15:53,115 - INFO - baidu--->baidu9 - para_data: {'age': 58, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 12:15:53,167 - INFO - baidu->baidu9 - Https has get the response data using 0.0576804677277
+2016-11-14 12:15:53,167 - INFO - baidu->baidu9 - Run fail 2 times,The error: 
+ {}
+2016-11-14 12:15:53,174 - INFO - baidu--->baidu9 - para_data: {'age': 58, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 12:15:53,223 - INFO - baidu->baidu9 - Https has get the response data using 0.0551089554079
+2016-11-14 12:15:53,224 - INFO - baidu->baidu9 - Run fail 3 times,The error: 
+ {}
+2016-11-14 12:15:53,230 - INFO - baidu--->baidu9 - para_data: {'age': 58, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-14 12:15:53,302 - INFO - baidu->baidu9 - Https has get the response data using 0.0763927318404
+2016-11-14 12:15:53,302 - INFO - baidu->baidu9 - Run fail 4 times,The error: 
+ {}
+2016-11-14 12:15:53,326 - INFO - baidu--->baidu_lack - para_data: {'rate': 0.89, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6'}
+
+2016-11-14 12:15:53,411 - INFO - baidu->baidu_lack - Https has get the response data using 0.0895109859939
+2016-11-14 12:15:53,413 - INFO - baidu->baidu_lack - Run fail 1 times,The error: 
+ {}
+2016-11-14 12:15:53,417 - INFO - baidu--->baidu_lack - para_data: {'rate': 0.89, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6'}
+
+2016-11-14 12:15:53,509 - INFO - baidu->baidu_lack - Https has get the response data using 0.0962719258012
+2016-11-14 12:15:53,510 - INFO - baidu->baidu_lack - Run fail 2 times,The error: 
+ {}
+2016-11-14 12:15:53,517 - INFO - baidu--->baidu_lack - para_data: {'rate': 0.89, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6'}
+
+2016-11-14 12:15:53,588 - INFO - baidu->baidu_lack - Https has get the response data using 0.0759647864518
+2016-11-14 12:15:53,588 - INFO - baidu->baidu_lack - Run fail 3 times,The error: 
+ {}
+2016-11-14 12:15:53,594 - INFO - baidu--->baidu_lack - para_data: {'rate': 0.89, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6'}
+
+2016-11-14 12:15:53,667 - INFO - baidu->baidu_lack - Https has get the response data using 0.078033260274
+2016-11-14 12:15:53,667 - INFO - baidu->baidu_lack - Run fail 4 times,The error: 
+ {}
+2016-11-14 12:15:53,693 - INFO - baidu - The baidu end running------------------
+2016-11-14 12:15:53,693 - INFO - baidu - The whole time of running baidu is 13.7809636409
+2016-11-14 12:22:54,703 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:08:11,986 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:09:07,013 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:10:03,601 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:10:38,091 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:10:38,105 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:10:38,108 - INFO - httpbin - The case of httpbin has built using 0.00285524480567
+2016-11-14 14:10:38,108 - INFO - httpbin - The caselist is:
+ httpbin1
+2016-11-14 14:11:54,089 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:11:56,701 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:11:56,706 - INFO - httpbin - The case of httpbin has built using 0.00339796318475
+2016-11-14 14:11:56,707 - INFO - httpbin - The caselist is:
+ httpbin1
+2016-11-14 14:12:12,279 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:15:28,451 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:16:37,924 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:16:40,694 - INFO - httpbin - The case of httpbin has built using 0.00289577801794
+2016-11-14 14:16:40,696 - INFO - httpbin - The caselist is:
+ httpbin1
+2016-11-14 14:17:57,578 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:17:57,592 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:17:57,595 - INFO - httpbin - The case of httpbin has built using 0.00309759074853
+2016-11-14 14:17:57,596 - INFO - httpbin - The caselist is:
+ httpbin1
+2016-11-14 14:19:15,776 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:19:15,792 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:19:15,796 - INFO - httpbin - The case of httpbin has built using 0.00290815131432
+2016-11-14 14:19:15,798 - INFO - httpbin - The caselist is:
+ httpbin1
+2016-11-14 14:19:44,647 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:19:44,664 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:19:44,667 - INFO - httpbin - The case of httpbin has built using 0.00300116436986
+2016-11-14 14:19:44,668 - INFO - httpbin - The caselist is:
+ httpbin1
+2016-11-14 14:22:05,092 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:22:05,108 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:22:09,302 - INFO - httpbin - The case of httpbin has built using 0.00505470490328
+2016-11-14 14:22:09,305 - INFO - httpbin - The caselist is:
+ httpbin1
+2016-11-14 14:23:37,653 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:23:37,670 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:23:40,017 - INFO - httpbin - The case of httpbin has built using 0.00717864522645
+2016-11-14 14:23:40,022 - INFO - httpbin - The caselist is:
+ httpbin1
+2016-11-14 14:24:19,414 - INFO - httpbin--->httpbin1 - para_data: {'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6'}
+
+2016-11-14 14:24:42,917 - INFO - httpbin->httpbin1 - Http has get the response data using 28.5908650086
+2016-11-14 14:24:49,989 - INFO - httpbin->httpbin1 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:24:55,424 - INFO - httpbin--->httpbin1 - para_data: {'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6'}
+
+2016-11-14 14:25:08,173 - INFO - httpbin->httpbin1 - Http has get the response data using 12.5850644926
+2016-11-14 14:25:12,030 - INFO - httpbin->httpbin1 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:25:13,769 - INFO - httpbin--->httpbin1 - para_data: {'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6'}
+
+2016-11-14 14:25:23,438 - INFO - httpbin->httpbin1 - Http has get the response data using 9.15782608863
+2016-11-14 14:25:30,671 - INFO - httpbin->httpbin1 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:25:35,790 - INFO - httpbin--->httpbin1 - para_data: {'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6'}
+
+2016-11-14 14:25:42,871 - INFO - httpbin->httpbin1 - Http has get the response data using 7.84049839638
+2016-11-14 14:25:45,750 - INFO - httpbin->httpbin1 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:26:18,273 - INFO - httpbin - The httpbin end running------------------
+2016-11-14 14:26:18,489 - INFO - httpbin - The whole time of running httpbin is 158.49673793
+2016-11-14 14:37:50,253 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:39:16,035 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:39:16,049 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:39:16,053 - INFO - httpbin - The case of httpbin has built using 0.00272468519561
+2016-11-14 14:39:16,053 - INFO - httpbin - The caselist is:
+ httpbin1
+2016-11-14 14:39:16,065 - INFO - httpbin--->httpbin1 - para_data: {'age': 15}
+
+2016-11-14 14:39:16,844 - INFO - httpbin->httpbin1 - Http has get the response data using 0.781477345988
+2016-11-14 14:39:16,849 - INFO - httpbin->httpbin1 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:39:16,874 - INFO - httpbin--->httpbin1 - para_data: {'age': 15}
+
+2016-11-14 14:39:18,331 - INFO - httpbin->httpbin1 - Http has get the response data using 1.47880731663
+2016-11-14 14:39:18,335 - INFO - httpbin->httpbin1 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:39:18,346 - INFO - httpbin--->httpbin1 - para_data: {'age': 15}
+
+2016-11-14 14:39:19,779 - INFO - httpbin->httpbin1 - Http has get the response data using 1.44061137737
+2016-11-14 14:39:19,779 - INFO - httpbin->httpbin1 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:39:19,786 - INFO - httpbin--->httpbin1 - para_data: {'age': 15}
+
+2016-11-14 14:39:21,210 - INFO - httpbin->httpbin1 - Http has get the response data using 1.42801877498
+2016-11-14 14:39:21,213 - INFO - httpbin->httpbin1 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:39:21,246 - INFO - httpbin - The httpbin end running------------------
+2016-11-14 14:39:21,246 - INFO - httpbin - The whole time of running httpbin is 5.22213565655
+2016-11-14 14:44:18,895 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:44:18,934 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:44:18,937 - INFO - httpbin - The case of httpbin has built using 0.00257236565053
+2016-11-14 14:44:18,937 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-14 14:46:14,247 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:46:14,282 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:46:14,286 - INFO - httpbin - The case of httpbin has built using 0.00262313883223
+2016-11-14 14:46:14,286 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-14 14:47:08,223 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:47:08,256 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:47:08,260 - INFO - httpbin - The case of httpbin has built using 0.00331092344471
+2016-11-14 14:47:08,262 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-14 14:49:25,315 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:49:25,348 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:49:33,200 - INFO - httpbin - The case of httpbin has built using 0.712484698712
+2016-11-14 14:49:33,970 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-14 14:50:19,835 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:50:19,865 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:50:19,868 - INFO - httpbin - The case of httpbin has built using 0.00277247171955
+2016-11-14 14:50:19,868 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-14 14:50:32,759 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:50:32,795 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:50:32,799 - INFO - httpbin - The case of httpbin has built using 0.00284628483243
+2016-11-14 14:50:32,801 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-14 14:51:03,062 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:51:03,095 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:51:03,099 - INFO - httpbin - The case of httpbin has built using 0.00310441739481
+2016-11-14 14:51:03,101 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-14 14:51:27,282 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:51:27,315 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:51:36,071 - INFO - httpbin - The case of httpbin has built using 0.393069759365
+2016-11-14 14:51:37,101 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-14 14:52:22,368 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:52:22,403 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:52:24,434 - INFO - httpbin - The case of httpbin has built using 0.00629758119122
+2016-11-14 14:52:24,437 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-14 14:52:48,035 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-14 14:53:05,244 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'method': u'post'}
+2016-11-14 14:53:05,275 - INFO - httpbin - The case of httpbin build success...
+2016-11-14 14:53:05,279 - INFO - httpbin - The case of httpbin has built using 0.00263167214007
+2016-11-14 14:53:05,279 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-14 14:53:05,290 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-14 14:53:05,980 - INFO - httpbin->httpbin1 - Http has get the response data using 0.694857871358
+2016-11-14 14:53:05,982 - INFO - httpbin->httpbin1 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:53:05,990 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-14 14:53:06,661 - INFO - httpbin->httpbin1 - Http has get the response data using 0.676114034006
+2016-11-14 14:53:06,665 - INFO - httpbin->httpbin1 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:53:06,691 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-14 14:53:07,364 - INFO - httpbin->httpbin1 - Http has get the response data using 0.695207310314
+2016-11-14 14:53:07,368 - INFO - httpbin->httpbin1 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:53:07,381 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-14 14:53:08,010 - INFO - httpbin->httpbin1 - Http has get the response data using 0.640138461453
+2016-11-14 14:53:08,016 - INFO - httpbin->httpbin1 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:53:08,049 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-14 14:53:08,657 - INFO - httpbin->httpbin2 - Http has get the response data using 0.611173427962
+2016-11-14 14:53:08,657 - INFO - httpbin->httpbin2 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:53:08,663 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-14 14:53:09,289 - INFO - httpbin->httpbin2 - Http has get the response data using 0.630475770312
+2016-11-14 14:53:09,292 - INFO - httpbin->httpbin2 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:53:09,299 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-14 14:53:09,917 - INFO - httpbin->httpbin2 - Http has get the response data using 0.623645284046
+2016-11-14 14:53:09,921 - INFO - httpbin->httpbin2 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:53:09,931 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-14 14:53:10,530 - INFO - httpbin->httpbin2 - Http has get the response data using 0.60807242389
+2016-11-14 14:53:10,532 - INFO - httpbin->httpbin2 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:53:10,582 - INFO - httpbin--->httpbin3 - para_data: {'age': 10}
+
+2016-11-14 14:53:11,154 - INFO - httpbin->httpbin3 - Http has get the response data using 0.578250646291
+2016-11-14 14:53:11,155 - INFO - httpbin->httpbin3 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:53:11,161 - INFO - httpbin--->httpbin3 - para_data: {'age': 10}
+
+2016-11-14 14:53:11,711 - INFO - httpbin->httpbin3 - Http has get the response data using 0.554487090599
+2016-11-14 14:53:11,713 - INFO - httpbin->httpbin3 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:53:11,720 - INFO - httpbin--->httpbin3 - para_data: {'age': 10}
+
+2016-11-14 14:53:15,369 - INFO - httpbin->httpbin3 - Http has get the response data using 3.6548545775
+2016-11-14 14:53:15,374 - INFO - httpbin->httpbin3 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:53:15,384 - INFO - httpbin--->httpbin3 - para_data: {'age': 10}
+
+2016-11-14 14:53:16,678 - INFO - httpbin->httpbin3 - Http has get the response data using 1.30369658629
+2016-11-14 14:53:16,680 - INFO - httpbin->httpbin3 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss'}
+2016-11-14 14:53:16,703 - INFO - httpbin - The httpbin end running------------------
+2016-11-14 14:53:16,703 - INFO - httpbin - The whole time of running httpbin is 11.4694023314
+2016-11-15 18:21:28,311 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'funcname': None, 'classname': None, 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'method': u'post', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'jarname': None}
+2016-11-15 18:22:30,292 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'funcname': None, 'classname': None, 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'method': u'post', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'jarname': None}
+2016-11-15 18:22:30,342 - INFO - httpbin - The case of httpbin build success...
+2016-11-15 18:22:30,345 - INFO - httpbin - The case of httpbin has built using 0.00243711272116
+2016-11-15 18:22:30,345 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3', u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-15 18:22:30,361 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-15 18:22:30,920 - INFO - httpbin->httpbin1 - Http has get the response data using 0.56677121391
+2016-11-15 18:22:30,921 - INFO - httpbin->httpbin1 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:30,927 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-15 18:22:32,960 - INFO - httpbin->httpbin1 - Http has get the response data using 2.03912649648
+2016-11-15 18:22:32,963 - INFO - httpbin->httpbin1 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:32,970 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-15 18:22:33,467 - INFO - httpbin->httpbin1 - Http has get the response data using 0.502646818762
+2016-11-15 18:22:33,467 - INFO - httpbin->httpbin1 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:33,473 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-15 18:22:34,036 - INFO - httpbin->httpbin1 - Http has get the response data using 0.568822621116
+2016-11-15 18:22:34,039 - INFO - httpbin->httpbin1 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:34,068 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-15 18:22:34,667 - INFO - httpbin->httpbin2 - Http has get the response data using 0.604228168705
+2016-11-15 18:22:34,667 - INFO - httpbin->httpbin2 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:34,674 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-15 18:22:35,338 - INFO - httpbin->httpbin2 - Http has get the response data using 0.670839596426
+2016-11-15 18:22:35,339 - INFO - httpbin->httpbin2 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:35,345 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-15 18:22:41,118 - INFO - httpbin->httpbin2 - Http has get the response data using 5.77746413131
+2016-11-15 18:22:41,118 - INFO - httpbin->httpbin2 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:41,125 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-15 18:22:41,845 - INFO - httpbin->httpbin2 - Http has get the response data using 0.726078258113
+2016-11-15 18:22:41,848 - INFO - httpbin->httpbin2 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:41,875 - INFO - httpbin--->httpbin3 - para_data: {'age': 11}
+
+2016-11-15 18:22:42,563 - INFO - httpbin->httpbin3 - Http has get the response data using 0.693483155464
+2016-11-15 18:22:42,565 - INFO - httpbin->httpbin3 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:42,569 - INFO - httpbin--->httpbin3 - para_data: {'age': 11}
+
+2016-11-15 18:22:43,295 - INFO - httpbin->httpbin3 - Http has get the response data using 0.730421285142
+2016-11-15 18:22:43,296 - INFO - httpbin->httpbin3 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:43,303 - INFO - httpbin--->httpbin3 - para_data: {'age': 11}
+
+2016-11-15 18:22:43,977 - INFO - httpbin->httpbin3 - Http has get the response data using 0.679987302438
+2016-11-15 18:22:43,979 - INFO - httpbin->httpbin3 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:43,984 - INFO - httpbin--->httpbin3 - para_data: {'age': 11}
+
+2016-11-15 18:22:44,664 - INFO - httpbin->httpbin3 - Http has get the response data using 0.685042007341
+2016-11-15 18:22:44,665 - INFO - httpbin->httpbin3 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:44,693 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-15 18:22:45,394 - INFO - httpbin->httpbin1 - Http has get the response data using 0.705451119719
+2016-11-15 18:22:45,394 - INFO - httpbin->httpbin1 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:45,401 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-15 18:22:46,036 - INFO - httpbin->httpbin1 - Http has get the response data using 0.642033282461
+2016-11-15 18:22:46,039 - INFO - httpbin->httpbin1 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:46,043 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-15 18:22:46,634 - INFO - httpbin->httpbin1 - Http has get the response data using 0.595630861049
+2016-11-15 18:22:46,635 - INFO - httpbin->httpbin1 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:46,641 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-15 18:22:48,390 - INFO - httpbin->httpbin1 - Http has get the response data using 1.75357769598
+2016-11-15 18:22:48,391 - INFO - httpbin->httpbin1 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:48,424 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-15 18:22:49,976 - INFO - httpbin->httpbin2 - Http has get the response data using 1.55881006435
+2016-11-15 18:22:49,977 - INFO - httpbin->httpbin2 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:49,983 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-15 18:22:58,000 - INFO - httpbin->httpbin2 - Http has get the response data using 8.02210809397
+2016-11-15 18:22:58,002 - INFO - httpbin->httpbin2 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:58,009 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-15 18:22:58,503 - INFO - httpbin->httpbin2 - Http has get the response data using 0.500082986419
+2016-11-15 18:22:58,505 - INFO - httpbin->httpbin2 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:58,509 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-15 18:22:59,019 - INFO - httpbin->httpbin2 - Http has get the response data using 0.515477073775
+2016-11-15 18:22:59,020 - INFO - httpbin->httpbin2 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:59,051 - INFO - httpbin--->httpbin3 - para_data: {'age': 11}
+
+2016-11-15 18:22:59,552 - INFO - httpbin->httpbin3 - Http has get the response data using 0.506954432563
+2016-11-15 18:22:59,552 - INFO - httpbin->httpbin3 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:22:59,558 - INFO - httpbin--->httpbin3 - para_data: {'age': 11}
+
+2016-11-15 18:23:00,045 - INFO - httpbin->httpbin3 - Http has get the response data using 0.492018157172
+2016-11-15 18:23:00,046 - INFO - httpbin->httpbin3 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:23:00,052 - INFO - httpbin--->httpbin3 - para_data: {'age': 11}
+
+2016-11-15 18:23:00,575 - INFO - httpbin->httpbin3 - Http has get the response data using 0.529388072228
+2016-11-15 18:23:00,576 - INFO - httpbin->httpbin3 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:23:00,582 - INFO - httpbin--->httpbin3 - para_data: {'age': 11}
+
+2016-11-15 18:23:01,084 - INFO - httpbin->httpbin3 - Http has get the response data using 0.50533139741
+2016-11-15 18:23:01,085 - INFO - httpbin->httpbin3 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:23:01,105 - INFO - httpbin - The httpbin end running------------------
+2016-11-15 18:23:01,107 - INFO - httpbin - The whole time of running httpbin is 30.8278516075
+2016-11-15 18:42:53,569 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'funcname': None, 'classname': None, 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'method': u'post', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'jarname': None}
+2016-11-15 18:42:53,611 - INFO - httpbin - The case of httpbin build success...
+2016-11-15 18:42:53,617 - INFO - httpbin - The case of httpbin has built using 0.00378836201876
+2016-11-15 18:42:53,618 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-15 18:42:53,630 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-15 18:42:54,730 - INFO - httpbin->httpbin1 - Http has get the response data using 1.106808001
+2016-11-15 18:42:54,732 - INFO - httpbin->httpbin1 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:42:54,736 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-15 18:42:55,256 - INFO - httpbin->httpbin1 - Http has get the response data using 0.524298807428
+2016-11-15 18:42:55,257 - INFO - httpbin->httpbin1 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:42:55,263 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-15 18:42:55,778 - INFO - httpbin->httpbin1 - Http has get the response data using 0.518908743526
+2016-11-15 18:42:55,779 - INFO - httpbin->httpbin1 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:42:55,785 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-15 18:42:56,332 - INFO - httpbin->httpbin1 - Http has get the response data using 0.551682618975
+2016-11-15 18:42:56,332 - INFO - httpbin->httpbin1 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:42:56,368 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-15 18:42:58,197 - INFO - httpbin->httpbin2 - Http has get the response data using 1.83523121211
+2016-11-15 18:42:58,198 - INFO - httpbin->httpbin2 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:42:58,204 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-15 18:42:58,734 - INFO - httpbin->httpbin2 - Http has get the response data using 0.535151895013
+2016-11-15 18:42:58,736 - INFO - httpbin->httpbin2 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:42:58,743 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-15 18:42:59,253 - INFO - httpbin->httpbin2 - Http has get the response data using 0.514338730508
+2016-11-15 18:42:59,253 - INFO - httpbin->httpbin2 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:42:59,259 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-15 18:42:59,796 - INFO - httpbin->httpbin2 - Http has get the response data using 0.541469956143
+2016-11-15 18:42:59,796 - INFO - httpbin->httpbin2 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:42:59,842 - INFO - httpbin--->httpbin3 - para_data: {'age': 10}
+
+2016-11-15 18:43:00,382 - INFO - httpbin->httpbin3 - Http has get the response data using 0.544834212762
+2016-11-15 18:43:00,384 - INFO - httpbin->httpbin3 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:43:00,390 - INFO - httpbin--->httpbin3 - para_data: {'age': 10}
+
+2016-11-15 18:43:00,950 - INFO - httpbin->httpbin3 - Http has get the response data using 0.566376121757
+2016-11-15 18:43:00,951 - INFO - httpbin->httpbin3 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:43:00,957 - INFO - httpbin--->httpbin3 - para_data: {'age': 10}
+
+2016-11-15 18:43:02,605 - INFO - httpbin->httpbin3 - Http has get the response data using 1.65341628846
+2016-11-15 18:43:02,607 - INFO - httpbin->httpbin3 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:43:02,612 - INFO - httpbin--->httpbin3 - para_data: {'age': 10}
+
+2016-11-15 18:43:03,147 - INFO - httpbin->httpbin3 - Http has get the response data using 0.539858014291
+2016-11-15 18:43:03,148 - INFO - httpbin->httpbin3 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-15 18:43:03,168 - INFO - httpbin - The httpbin end running------------------
+2016-11-15 18:43:03,168 - INFO - httpbin - The whole time of running httpbin is 9.61420957889
+2016-11-16 16:27:45,585 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'funcname': None, 'classname': None, 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'method': u'post', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'jarname': None}
+2016-11-16 16:27:45,619 - INFO - httpbin - The case of httpbin build success...
+2016-11-16 16:27:45,624 - INFO - httpbin - The case of httpbin has built using 0.003920201625
+2016-11-16 16:27:45,625 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-16 16:27:45,640 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:27:46,213 - INFO - httpbin->httpbin1 - Http has get the response data using 0.580224827062
+2016-11-16 16:27:46,219 - INFO - httpbin->httpbin1 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:27:46,243 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:27:46,769 - INFO - httpbin->httpbin1 - Http has get the response data using 0.547094686011
+2016-11-16 16:27:46,772 - INFO - httpbin->httpbin1 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:27:46,786 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:27:47,328 - INFO - httpbin->httpbin1 - Http has get the response data using 0.553583413298
+2016-11-16 16:27:47,332 - INFO - httpbin->httpbin1 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:27:47,345 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:27:47,849 - INFO - httpbin->httpbin1 - Http has get the response data using 0.513871958569
+2016-11-16 16:27:47,852 - INFO - httpbin->httpbin1 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:27:47,888 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-16 16:27:48,426 - INFO - httpbin->httpbin2 - Http has get the response data using 0.540295772983
+2016-11-16 16:27:48,430 - INFO - httpbin->httpbin2 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:27:48,443 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-16 16:27:48,953 - INFO - httpbin->httpbin2 - Http has get the response data using 0.518781597239
+2016-11-16 16:27:48,957 - INFO - httpbin->httpbin2 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:27:48,967 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-16 16:27:49,510 - INFO - httpbin->httpbin2 - Http has get the response data using 0.550592062232
+2016-11-16 16:27:49,517 - INFO - httpbin->httpbin2 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:27:49,529 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-16 16:27:50,081 - INFO - httpbin->httpbin2 - Http has get the response data using 0.560891338138
+2016-11-16 16:27:50,085 - INFO - httpbin->httpbin2 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:27:50,170 - INFO - httpbin--->httpbin3 - para_data: {'age': 18}
+
+2016-11-16 16:27:50,693 - INFO - httpbin->httpbin3 - Http has get the response data using 0.527674584012
+2016-11-16 16:27:50,697 - INFO - httpbin->httpbin3 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:27:50,710 - INFO - httpbin--->httpbin3 - para_data: {'age': 18}
+
+2016-11-16 16:27:51,210 - INFO - httpbin->httpbin3 - Http has get the response data using 0.511411379251
+2016-11-16 16:27:51,211 - INFO - httpbin->httpbin3 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:27:51,220 - INFO - httpbin--->httpbin3 - para_data: {'age': 18}
+
+2016-11-16 16:27:51,750 - INFO - httpbin->httpbin3 - Http has get the response data using 0.537153382369
+2016-11-16 16:27:51,756 - INFO - httpbin->httpbin3 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:27:51,779 - INFO - httpbin--->httpbin3 - para_data: {'age': 18}
+
+2016-11-16 16:27:52,322 - INFO - httpbin->httpbin3 - Http has get the response data using 0.564413887617
+2016-11-16 16:27:52,328 - INFO - httpbin->httpbin3 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:27:52,374 - INFO - httpbin - The httpbin end running------------------
+2016-11-16 16:27:52,375 - INFO - httpbin - The whole time of running httpbin is 6.80103270092
+2016-11-16 16:40:33,980 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'funcname': None, 'classname': None, 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'method': u'post', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'jarname': None}
+2016-11-16 16:40:34,010 - INFO - httpbin - The case of httpbin build success...
+2016-11-16 16:40:34,015 - INFO - httpbin - The case of httpbin has built using 0.0026470320942
+2016-11-16 16:40:34,016 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-16 16:40:34,029 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:40:34,624 - INFO - httpbin->httpbin1 - Http has get the response data using 0.599156823852
+2016-11-16 16:40:34,628 - INFO - httpbin->httpbin1 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:40:34,638 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:40:35,217 - INFO - httpbin->httpbin1 - Http has get the response data using 0.586477181721
+2016-11-16 16:40:35,220 - INFO - httpbin->httpbin1 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:40:35,233 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:40:35,801 - INFO - httpbin->httpbin1 - Http has get the response data using 0.577538541752
+2016-11-16 16:40:35,805 - INFO - httpbin->httpbin1 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:40:35,818 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:40:36,400 - INFO - httpbin->httpbin1 - Http has get the response data using 0.591478980116
+2016-11-16 16:40:36,404 - INFO - httpbin->httpbin1 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:42:00,617 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'funcname': None, 'classname': None, 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'method': u'post', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'jarname': None}
+2016-11-16 16:42:00,651 - INFO - httpbin - The case of httpbin build success...
+2016-11-16 16:42:00,655 - INFO - httpbin - The case of httpbin has built using 0.00257023232357
+2016-11-16 16:42:00,657 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-16 16:42:00,671 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:42:01,194 - INFO - httpbin->httpbin1 - Http has get the response data using 0.530376655942
+2016-11-16 16:42:01,197 - INFO - httpbin->httpbin1 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:42:01,210 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:42:02,269 - INFO - httpbin->httpbin1 - Http has get the response data using 1.06806422338
+2016-11-16 16:42:02,273 - INFO - httpbin->httpbin1 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:42:02,286 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:42:02,773 - INFO - httpbin->httpbin1 - Http has get the response data using 0.497232008267
+2016-11-16 16:42:02,778 - INFO - httpbin->httpbin1 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:42:02,789 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:42:03,309 - INFO - httpbin->httpbin1 - Http has get the response data using 0.529804497651
+2016-11-16 16:42:03,312 - INFO - httpbin->httpbin1 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:42:03,358 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-16 16:42:03,878 - INFO - httpbin->httpbin2 - Http has get the response data using 0.526278534848
+2016-11-16 16:42:03,884 - INFO - httpbin->httpbin2 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:42:03,898 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-16 16:42:04,387 - INFO - httpbin->httpbin2 - Http has get the response data using 0.500477225241
+2016-11-16 16:42:04,388 - INFO - httpbin->httpbin2 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:42:04,394 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-16 16:42:04,914 - INFO - httpbin->httpbin2 - Http has get the response data using 0.524850912445
+2016-11-16 16:42:04,914 - INFO - httpbin->httpbin2 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:42:04,923 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-16 16:42:05,420 - INFO - httpbin->httpbin2 - Http has get the response data using 0.504452893367
+2016-11-16 16:42:05,421 - INFO - httpbin->httpbin2 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:42:05,456 - INFO - httpbin--->httpbin3 - para_data: {'age': 10}
+
+2016-11-16 16:42:05,937 - INFO - httpbin->httpbin3 - Http has get the response data using 0.487669156828
+2016-11-16 16:42:05,940 - INFO - httpbin->httpbin3 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:42:05,946 - INFO - httpbin--->httpbin3 - para_data: {'age': 10}
+
+2016-11-16 16:42:06,470 - INFO - httpbin->httpbin3 - Http has get the response data using 0.528698580954
+2016-11-16 16:42:06,476 - INFO - httpbin->httpbin3 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:42:06,487 - INFO - httpbin--->httpbin3 - para_data: {'age': 10}
+
+2016-11-16 16:42:07,003 - INFO - httpbin->httpbin3 - Http has get the response data using 0.525574110285
+2016-11-16 16:42:07,003 - INFO - httpbin->httpbin3 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:42:07,009 - INFO - httpbin--->httpbin3 - para_data: {'age': 10}
+
+2016-11-16 16:42:07,536 - INFO - httpbin->httpbin3 - Http has get the response data using 0.532066677561
+2016-11-16 16:42:07,538 - INFO - httpbin->httpbin3 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:42:07,559 - INFO - httpbin - The httpbin end running------------------
+2016-11-16 16:42:07,559 - INFO - httpbin - The whole time of running httpbin is 6.94557413589
+2016-11-16 16:43:34,578 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'funcname': None, 'classname': None, 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'method': u'post', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'jarname': None}
+2016-11-16 16:43:34,611 - INFO - httpbin - The case of httpbin build success...
+2016-11-16 16:43:34,615 - INFO - httpbin - The case of httpbin has built using 0.0029486845266
+2016-11-16 16:43:34,617 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-16 16:43:34,628 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:43:35,191 - INFO - httpbin->httpbin1 - Http has get the response data using 0.568988593954
+2016-11-16 16:43:35,194 - INFO - httpbin->httpbin1 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:43:35,203 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:43:37,312 - INFO - httpbin->httpbin1 - Http has get the response data using 2.11514546943
+2016-11-16 16:43:37,318 - INFO - httpbin->httpbin1 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:43:37,339 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:43:39,280 - INFO - httpbin->httpbin1 - Http has get the response data using 1.96052875789
+2016-11-16 16:43:39,282 - INFO - httpbin->httpbin1 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:43:39,293 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:43:39,789 - INFO - httpbin->httpbin1 - Http has get the response data using 0.503006071022
+2016-11-16 16:43:39,792 - INFO - httpbin->httpbin1 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:43:39,844 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-16 16:43:40,348 - INFO - httpbin->httpbin2 - Http has get the response data using 0.509643277865
+2016-11-16 16:43:40,352 - INFO - httpbin->httpbin2 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:43:40,365 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-16 16:43:40,855 - INFO - httpbin->httpbin2 - Http has get the response data using 0.49986709373
+2016-11-16 16:43:40,861 - INFO - httpbin->httpbin2 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:43:40,872 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-16 16:43:41,417 - INFO - httpbin->httpbin2 - Http has get the response data using 0.552765922406
+2016-11-16 16:43:41,421 - INFO - httpbin->httpbin2 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:43:41,431 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-16 16:43:41,954 - INFO - httpbin->httpbin2 - Http has get the response data using 0.530995747426
+2016-11-16 16:43:41,959 - INFO - httpbin->httpbin2 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:43:42,000 - INFO - httpbin--->httpbin3 - para_data: {'age': 12}
+
+2016-11-16 16:43:42,551 - INFO - httpbin->httpbin3 - Http has get the response data using 0.556358871675
+2016-11-16 16:43:42,552 - INFO - httpbin->httpbin3 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:43:42,559 - INFO - httpbin--->httpbin3 - para_data: {'age': 12}
+
+2016-11-16 16:43:43,099 - INFO - httpbin->httpbin3 - Http has get the response data using 0.546252448526
+2016-11-16 16:43:43,101 - INFO - httpbin->httpbin3 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:43:43,105 - INFO - httpbin--->httpbin3 - para_data: {'age': 12}
+
+2016-11-16 16:43:43,655 - INFO - httpbin->httpbin3 - Http has get the response data using 0.553263840919
+2016-11-16 16:43:43,660 - INFO - httpbin->httpbin3 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:43:43,673 - INFO - httpbin--->httpbin3 - para_data: {'age': 12}
+
+2016-11-16 16:43:44,240 - INFO - httpbin->httpbin3 - Http has get the response data using 0.57765075475
+2016-11-16 16:43:44,240 - INFO - httpbin->httpbin3 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:43:44,275 - INFO - httpbin - The httpbin end running------------------
+2016-11-16 16:43:44,276 - INFO - httpbin - The whole time of running httpbin is 9.69986777639
+2016-11-16 16:46:00,145 - INFO - httpbin - The config data of httpbin:
+{'sql_check': u'{"sql": "select 1 from dual", "check": 1}', 'protocol': u'http', 'projectname': u'test', 'funcname': None, 'classname': None, 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'http://httpbin.org/post', 'cookie': u'{"_ga": "GA1.2.401132342.1476665415"}', 'sql_after': u'select 1 from dual;', 'sql_pre': u'select 1 from dual;', 'method': u'post', 'data': u'{"isFile": "False", "filename": "testimage.jpeg", "value": ""}', 'jarname': None}
+2016-11-16 16:46:00,219 - INFO - httpbin - The case of httpbin build success...
+2016-11-16 16:46:00,221 - INFO - httpbin - The case of httpbin has built using 0.00244948601754
+2016-11-16 16:46:00,223 - INFO - httpbin - The caselist is:
+ [u'httpbin1', u'httpbin2', u'httpbin3']
+2016-11-16 16:46:00,233 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:46:02,325 - INFO - httpbin->httpbin1 - Http has get the response data using 2.0937605733
+2016-11-16 16:46:02,329 - INFO - httpbin->httpbin1 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:02,339 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:46:02,936 - INFO - httpbin->httpbin1 - Http has get the response data using 0.603773343397
+2016-11-16 16:46:02,940 - INFO - httpbin->httpbin1 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:02,950 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:46:03,545 - INFO - httpbin->httpbin1 - Http has get the response data using 0.603402997836
+2016-11-16 16:46:03,546 - INFO - httpbin->httpbin1 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:03,552 - INFO - httpbin--->httpbin1 - para_data: {'age': 9}
+
+2016-11-16 16:46:04,128 - INFO - httpbin->httpbin1 - Http has get the response data using 0.580834105242
+2016-11-16 16:46:04,128 - INFO - httpbin->httpbin1 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:04,180 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-16 16:46:04,747 - INFO - httpbin->httpbin2 - Http has get the response data using 0.580346426699
+2016-11-16 16:46:04,753 - INFO - httpbin->httpbin2 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:04,766 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-16 16:46:05,385 - INFO - httpbin->httpbin2 - Http has get the response data using 0.630279077566
+2016-11-16 16:46:05,391 - INFO - httpbin->httpbin2 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:05,404 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-16 16:46:08,203 - INFO - httpbin->httpbin2 - Http has get the response data using 2.81073507194
+2016-11-16 16:46:08,204 - INFO - httpbin->httpbin2 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:08,210 - INFO - httpbin--->httpbin2 - para_data: {'age': 19}
+
+2016-11-16 16:46:08,826 - INFO - httpbin->httpbin2 - Http has get the response data using 0.620654786311
+2016-11-16 16:46:08,831 - INFO - httpbin->httpbin2 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:08,869 - INFO - httpbin--->httpbin3 - para_data: {'age': 14}
+
+2016-11-16 16:46:09,460 - INFO - httpbin->httpbin3 - Http has get the response data using 0.596059233103
+2016-11-16 16:46:09,461 - INFO - httpbin->httpbin3 - Run fail 1 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:09,469 - INFO - httpbin--->httpbin3 - para_data: {'age': 14}
+
+2016-11-16 16:46:10,049 - INFO - httpbin->httpbin3 - Http has get the response data using 0.585261185353
+2016-11-16 16:46:10,053 - INFO - httpbin->httpbin3 - Run fail 2 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:10,072 - INFO - httpbin--->httpbin3 - para_data: {'age': 14}
+
+2016-11-16 16:46:10,611 - INFO - httpbin->httpbin3 - Http has get the response data using 0.555922819644
+2016-11-16 16:46:10,615 - INFO - httpbin->httpbin3 - Run fail 3 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:10,630 - INFO - httpbin--->httpbin3 - para_data: {'age': 14}
+
+2016-11-16 16:46:11,164 - INFO - httpbin->httpbin3 - Http has get the response data using 0.547215432317
+2016-11-16 16:46:11,164 - INFO - httpbin->httpbin3 - Run fail 4 times,The error: 
+ {'a': 'Loss', 'b': 'Loss', 'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:11,194 - INFO - httpbin - The httpbin end running------------------
+2016-11-16 16:46:11,196 - INFO - httpbin - The whole time of running httpbin is 11.0523467237
+2016-11-16 16:46:11,201 - INFO - baidu - The config data of baidu:
+{'sql_check': None, 'protocol': u'https', 'projectname': u'test', 'funcname': None, 'classname': None, 'headers': u'{\n    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", \n    "Accept-Encoding": "gzip, deflate, sdch", \n    "Accept-Language": "zh-CN,zh;q=0.8,en;q=0.6", \n    "Cookie": "_ga=GA1.2.401132342.1476665415", \n    "Host": "httpbin.org", \n    "Upgrade-Insecure-Requests": "1", \n    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"\n  }', 'host': u'https://www.baidu.com', 'cookie': None, 'sql_after': None, 'sql_pre': None, 'method': u'get', 'data': None, 'jarname': None}
+2016-11-16 16:46:11,315 - INFO - baidu - The case of baidu build success...
+2016-11-16 16:46:11,318 - INFO - baidu - The case of baidu has built using 0.00230868643806
+2016-11-16 16:46:11,318 - INFO - baidu - The caselist is:
+ [u'baidu_lack', u'baidu1', u'baidu2', u'baidu3', u'baidu4', u'baidu5', u'baidu6', u'baidu7', u'baidu8', u'baidu9']
+2016-11-16 16:46:11,326 - INFO - baidu--->baidu_lack - para_data: {'rate': 0.89, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6'}
+
+2016-11-16 16:46:11,970 - INFO - baidu->baidu_lack - Https has get the response data using 0.647418653043
+2016-11-16 16:46:11,970 - INFO - baidu->baidu_lack - Run fail 1 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:11,976 - INFO - baidu--->baidu_lack - para_data: {'rate': 0.89, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6'}
+
+2016-11-16 16:46:12,032 - INFO - baidu->baidu_lack - Https has get the response data using 0.0612298971267
+2016-11-16 16:46:12,032 - INFO - baidu->baidu_lack - Run fail 2 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:12,038 - INFO - baidu--->baidu_lack - para_data: {'rate': 0.89, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6'}
+
+2016-11-16 16:46:12,092 - INFO - baidu->baidu_lack - Https has get the response data using 0.0595701687504
+2016-11-16 16:46:12,094 - INFO - baidu->baidu_lack - Run fail 3 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:12,099 - INFO - baidu--->baidu_lack - para_data: {'rate': 0.89, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6'}
+
+2016-11-16 16:46:12,151 - INFO - baidu->baidu_lack - Https has get the response data using 0.0574018552265
+2016-11-16 16:46:12,151 - INFO - baidu->baidu_lack - Run fail 4 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:12,184 - INFO - baidu--->baidu1 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-16 16:46:12,239 - INFO - baidu->baidu1 - Https has get the response data using 0.0594920889836
+2016-11-16 16:46:12,240 - INFO - baidu->baidu1 - Run fail 1 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:12,244 - INFO - baidu--->baidu1 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-16 16:46:12,318 - INFO - baidu->baidu1 - Https has get the response data using 0.0775989149046
+2016-11-16 16:46:12,319 - INFO - baidu->baidu1 - Run fail 2 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:12,325 - INFO - baidu--->baidu1 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-16 16:46:15,407 - INFO - baidu->baidu1 - Https has get the response data using 3.08692795371
+2016-11-16 16:46:15,407 - INFO - baidu->baidu1 - Run fail 3 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:15,414 - INFO - baidu--->baidu1 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-16 16:46:15,473 - INFO - baidu->baidu1 - Https has get the response data using 0.0656731905227
+2016-11-16 16:46:15,474 - INFO - baidu->baidu1 - Run fail 4 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:15,503 - INFO - baidu--->baidu2 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-16 16:46:15,559 - INFO - baidu->baidu2 - Https has get the response data using 0.061203017207
+2016-11-16 16:46:15,561 - INFO - baidu->baidu2 - Run fail 1 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:15,566 - INFO - baidu--->baidu2 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-16 16:46:15,619 - INFO - baidu->baidu2 - Https has get the response data using 0.059391395951
+2016-11-16 16:46:15,621 - INFO - baidu->baidu2 - Run fail 2 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:15,627 - INFO - baidu--->baidu2 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-16 16:46:15,678 - INFO - baidu->baidu2 - Https has get the response data using 0.0569423365989
+2016-11-16 16:46:15,678 - INFO - baidu->baidu2 - Run fail 3 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:15,684 - INFO - baidu--->baidu2 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-16 16:46:15,740 - INFO - baidu->baidu2 - Https has get the response data using 0.0597732614772
+2016-11-16 16:46:15,740 - INFO - baidu->baidu2 - Run fail 4 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:15,769 - INFO - baidu--->baidu3 - para_data: {'age': 38, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8754854940627257}
+
+2016-11-16 16:46:15,823 - INFO - baidu->baidu3 - Https has get the response data using 0.0601781669345
+2016-11-16 16:46:15,825 - INFO - baidu->baidu3 - Run fail 1 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:15,831 - INFO - baidu--->baidu3 - para_data: {'age': 38, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8754854940627257}
+
+2016-11-16 16:46:15,881 - INFO - baidu->baidu3 - Https has get the response data using 0.0572051624806
+2016-11-16 16:46:15,882 - INFO - baidu->baidu3 - Run fail 2 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:15,890 - INFO - baidu--->baidu3 - para_data: {'age': 38, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8754854940627257}
+
+2016-11-16 16:46:15,948 - INFO - baidu->baidu3 - Https has get the response data using 0.0647528732714
+2016-11-16 16:46:15,950 - INFO - baidu->baidu3 - Run fail 3 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:15,956 - INFO - baidu--->baidu3 - para_data: {'age': 38, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8754854940627257}
+
+2016-11-16 16:46:16,012 - INFO - baidu->baidu3 - Https has get the response data using 0.0615772027561
+2016-11-16 16:46:16,013 - INFO - baidu->baidu3 - Run fail 4 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:16,039 - INFO - baidu--->baidu4 - para_data: {'age': 38, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-16 16:46:16,091 - INFO - baidu->baidu4 - Https has get the response data using 0.0572563623277
+2016-11-16 16:46:16,091 - INFO - baidu->baidu4 - Run fail 1 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:16,098 - INFO - baidu--->baidu4 - para_data: {'age': 38, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-16 16:46:16,154 - INFO - baidu->baidu4 - Https has get the response data using 0.0623938403171
+2016-11-16 16:46:16,155 - INFO - baidu->baidu4 - Run fail 2 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:16,161 - INFO - baidu--->baidu4 - para_data: {'age': 38, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-16 16:46:16,217 - INFO - baidu->baidu4 - Https has get the response data using 0.0613950166336
+2016-11-16 16:46:16,217 - INFO - baidu->baidu4 - Run fail 3 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:16,223 - INFO - baidu--->baidu4 - para_data: {'age': 38, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-16 16:46:16,276 - INFO - baidu->baidu4 - Https has get the response data using 0.0582492126957
+2016-11-16 16:46:16,278 - INFO - baidu->baidu4 - Run fail 4 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:16,309 - INFO - baidu--->baidu5 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-16 16:46:16,365 - INFO - baidu->baidu5 - Https has get the response data using 0.0606585921663
+2016-11-16 16:46:16,365 - INFO - baidu->baidu5 - Run fail 1 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:16,371 - INFO - baidu--->baidu5 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-16 16:46:16,420 - INFO - baidu->baidu5 - Https has get the response data using 0.05437722426
+2016-11-16 16:46:16,421 - INFO - baidu->baidu5 - Run fail 2 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:16,427 - INFO - baidu--->baidu5 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-16 16:46:16,483 - INFO - baidu->baidu5 - Https has get the response data using 0.062395973644
+2016-11-16 16:46:16,484 - INFO - baidu->baidu5 - Run fail 3 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:16,490 - INFO - baidu--->baidu5 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-16 16:46:16,545 - INFO - baidu->baidu5 - Https has get the response data using 0.058755237851
+2016-11-16 16:46:16,545 - INFO - baidu->baidu5 - Run fail 4 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:16,571 - INFO - baidu--->baidu6 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-16 16:46:16,625 - INFO - baidu->baidu6 - Https has get the response data using 0.0584045188985
+2016-11-16 16:46:16,625 - INFO - baidu->baidu6 - Run fail 1 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:16,632 - INFO - baidu--->baidu6 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-16 16:46:16,684 - INFO - baidu->baidu6 - Https has get the response data using 0.057962493552
+2016-11-16 16:46:16,686 - INFO - baidu->baidu6 - Run fail 2 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:16,691 - INFO - baidu--->baidu6 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-16 16:46:16,746 - INFO - baidu->baidu6 - Https has get the response data using 0.0590389703369
+2016-11-16 16:46:16,746 - INFO - baidu->baidu6 - Run fail 3 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:16,753 - INFO - baidu--->baidu6 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.91}
+
+2016-11-16 16:46:16,805 - INFO - baidu->baidu6 - Https has get the response data using 0.0585231318776
+2016-11-16 16:46:16,805 - INFO - baidu->baidu6 - Run fail 4 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:16,834 - INFO - baidu--->baidu7 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8754854940627257}
+
+2016-11-16 16:46:16,891 - INFO - baidu->baidu7 - Https has get the response data using 0.0622193341716
+2016-11-16 16:46:16,891 - INFO - baidu->baidu7 - Run fail 1 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:16,898 - INFO - baidu--->baidu7 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8754854940627257}
+
+2016-11-16 16:46:16,970 - INFO - baidu->baidu7 - Https has get the response data using 0.078980457445
+2016-11-16 16:46:16,971 - INFO - baidu->baidu7 - Run fail 2 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:16,977 - INFO - baidu--->baidu7 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8754854940627257}
+
+2016-11-16 16:46:17,058 - INFO - baidu->baidu7 - Https has get the response data using 0.0858472102697
+2016-11-16 16:46:17,059 - INFO - baidu->baidu7 - Run fail 3 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:17,065 - INFO - baidu--->baidu7 - para_data: {'age': 24, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8754854940627257}
+
+2016-11-16 16:46:17,608 - INFO - baidu->baidu7 - Https has get the response data using 0.547916443556
+2016-11-16 16:46:17,611 - INFO - baidu->baidu7 - Run fail 4 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:17,642 - INFO - baidu--->baidu8 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8754854940627257}
+
+2016-11-16 16:46:17,709 - INFO - baidu->baidu8 - Https has get the response data using 0.0725053834506
+2016-11-16 16:46:17,710 - INFO - baidu->baidu8 - Run fail 1 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:17,717 - INFO - baidu--->baidu8 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8754854940627257}
+
+2016-11-16 16:46:17,776 - INFO - baidu->baidu8 - Https has get the response data using 0.0662184688942
+2016-11-16 16:46:17,778 - INFO - baidu->baidu8 - Run fail 2 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:17,783 - INFO - baidu--->baidu8 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8754854940627257}
+
+2016-11-16 16:46:17,839 - INFO - baidu->baidu8 - Https has get the response data using 0.0612042972032
+2016-11-16 16:46:17,841 - INFO - baidu->baidu8 - Run fail 3 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:17,846 - INFO - baidu--->baidu8 - para_data: {'age': 61, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 1.8754854940627257}
+
+2016-11-16 16:46:17,910 - INFO - baidu->baidu8 - Https has get the response data using 0.0679596903604
+2016-11-16 16:46:17,910 - INFO - baidu->baidu8 - Run fail 4 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:17,940 - INFO - baidu--->baidu9 - para_data: {'age': 38, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-16 16:46:17,994 - INFO - baidu->baidu9 - Https has get the response data using 0.059137956708
+2016-11-16 16:46:17,996 - INFO - baidu->baidu9 - Run fail 1 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:18,002 - INFO - baidu--->baidu9 - para_data: {'age': 38, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-16 16:46:18,053 - INFO - baidu->baidu9 - Https has get the response data using 0.0576292678806
+2016-11-16 16:46:18,055 - INFO - baidu->baidu9 - Run fail 2 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:18,059 - INFO - baidu--->baidu9 - para_data: {'age': 38, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-16 16:46:18,114 - INFO - baidu->baidu9 - Https has get the response data using 0.0593299561345
+2016-11-16 16:46:18,115 - INFO - baidu->baidu9 - Run fail 3 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:18,121 - INFO - baidu--->baidu9 - para_data: {'age': 38, 'user': '\xe5\x8f\xa4\xe4\xbb\x8a\xe5\x90\x8c\xe5\xad\xa6', 'rate': 0.89}
+
+2016-11-16 16:46:18,173 - INFO - baidu->baidu9 - Https has get the response data using 0.0581749729174
+2016-11-16 16:46:18,174 - INFO - baidu->baidu9 - Run fail 4 times,The error: 
+ {'respose&expect': 'Response or Expect is null'}
+2016-11-16 16:46:18,193 - INFO - baidu - The baidu end running------------------
+2016-11-16 16:46:18,194 - INFO - baidu - The whole time of running baidu is 6.99674838304

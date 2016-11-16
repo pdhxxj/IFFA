@@ -1,0 +1,52 @@
+httpbin:
+  host: http://httpbin.org/get
+  data:
+    isFile: False
+    filename: C:\api_test\Utils\testimg.jpeg
+    test: test
+  headers:
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Encoding: gzip, deflate, sdch
+    Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+    Connection: keep-alive
+    Cookie: _ga=GA1.2.401132342.1476665415
+    Host: httpbin.org
+    Upgrade-Insecure-Requests: '1'
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+  params: {}
+  method: get
+  cookie: {}
+  type: http
+
+github:
+  host: https://github.com
+  data:
+    isFile: False
+    filename: C:\api_test\Utils\testimg.jpeg
+    test: test
+  headers:
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    Accept-Encoding: gzip, deflate, sdch, br
+    Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+    Connection: keep-alive
+    Cookie: logged_in=no; _octo=GH1.1.1091275464.1475219943; _gh_sess=eyJzZXNzaW9uX2lkIjoiNWZhNDVhOTIyYTk4MmRmZDg0YWZiN2UwZTFmM2QzYTYiLCJyZWZlcnJhbF9jb2RlIjoiaHR0cHM6Ly93d3cuYmFpZHUuY29tL2xpbms%2FdXJsPUROTlMxSDBBVTdWR016QmJGVGpDeU85bVhQY1VXTEpSX3c1dEdvTXJIUjBpZkpRY2VaRlZqQ3NzVDFndUl1WDJiQWRYNF9oTEthdWU5R2V0Q055X1Z2ZnFXdkk2enZfNm1vS0ExVWVDdENpJndkPSZlcWlkPWI4NDI2NGMzMDAwMDNjMzkwMDAwMDAwNjU4MDcxMmNjIiwic3B5X3JlcG8iOiJnb29nbGVhZHMvZ29vZ2xlYWRzLXB5dGhvbi1saWIiLCJzcHlfcmVwb19hdCI6MTQ3Njg1ODYwNCwiX2NzcmZfdG9rZW4iOiJwWFNsU2orcGVlWEc0SmRCa2diREt1T2EvTlBHam5xWkxxclUzT05HRVlrPSJ9--1e36332568d46e578f79388b9a009e5dd0a3494a; _ga=GA1.2.589265985.1475219942; tz=Asia%2FShanghai
+    Host: github.com
+    Upgrade-Insecure-Requests: '1'
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+  params: {}
+  method: get
+  cookie: {}
+  type: https
+
+szrrjc:
+  host: http://hessian.caucho.com/test/test
+  server_api:
+    api_name1:
+      api_para1: para1
+      api_para2: para2
+    api_name2:
+      api_para1: para1
+      api_para2: para2
+    sayHello: hello world
+    hello: None
+  type: hessian
